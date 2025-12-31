@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    numeroUnidad: '2',
+    tituloUnidad: 'Técnicas de Storytelling con Datos',
   },
   menuPrincipal: {
     menu: [
@@ -15,70 +15,22 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Técnicas de storytelling con datos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Técnicas de storytelling con datos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Análisis interactivo de información',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -118,26 +70,100 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'Kaneko Aguilar, J. J. (2020). <em>Story cards para la gestión de talento: storytelling, storyboard y role-playing game</em>. Universidad Peruana de Ciencias Aplicadas (UPC).',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/171644',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Arias Velandia, N., Becerra Plaza, G. E., & Rincón Baez, W. U. (2020). <em>Programas académicos técnicos y tecnológicos: Análisis de datos abiertos en Colombia</em>. Editorial Politécnico Grancolombiano.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/189557',
+    },
+    {
+      referencia:
+        "Hawthorne Johnson, D. G., Smith Batson, M. D. L. C., & Gamboa Graus, M. E. (2022). <em>Insights on Teacher's Lesson Plans for Enhancing Effective Communication Skills: Cases in English Language Teacher Training, Development and Practicum</em>. Editorial Tecnocientífica Americana.",
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/216772',
+    },
+    {
+      referencia:
+        'Alcalde, I. (2015). <em>Visualización de la información: de los datos al conocimiento</em>. Editorial UOC.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/57832',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: '<em>Bookmark</em>',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Vista predefinida en un dashboard que guarda una configuración específica de filtros y visualizaciones para facilitar la navegación o simular escenarios.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: '<em>Dashboard</em>',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Tablero de control interactivo que integra múltiples visualizaciones para monitorear y analizar indicadores clave de desempeño organizacional.',
+    },
+    {
+      termino: '<em>Data Storytelling</em>',
+      significado:
+        'Técnica que combina análisis de datos con narrativa visual para comunicar hallazgos de manera clara, contextualizada y persuasiva.',
+    },
+    {
+      termino: '<em>Drill-through</em>',
+      significado:
+        'Funcionalidad que permite profundizar en una categoría de datos haciendo clic para acceder a una vista más detallada.',
+    },
+    {
+      termino: 'Filtro dinámico',
+      significado:
+        'Herramienta que permite al usuario personalizar la visualización segmentando los datos por criterios específicos como fecha, región o producto.',
+    },
+    {
+      termino: '<em>Insight</em>',
+      significado:
+        'Observación estratégica que surge del análisis de datos, con potencial para orientar acciones o decisiones empresariales.',
+    },
+    {
+      termino: '<em>KPI</em> (<em>Key Performance Indicator</em>)',
+      significado:
+        'Indicador clave utilizado para medir el progreso hacia objetivos estratégicos, operacionales o tácticos.',
+    },
+    {
+      termino: '<em>Looker Studio</em>',
+      significado:
+        'Herramienta de Google para la creación de dashboards interactivos conectados a diversas fuentes de datos.',
+    },
+    {
+      termino: '<em>OKR</em> (<em>Objectives and Key Results</em>)',
+      significado:
+        'Modelo de gestión que combina metas cualitativas con resultados cuantificables para alinear equipos y medir progreso.',
+    },
+    {
+      termino: '<em>Power BI</em>',
+      significado:
+        'Plataforma de Microsoft para la visualización de datos, análisis interactivo y creación de dashboards empresariales.',
+    },
+    {
+      termino: '<em>ROI</em> (<em>Return on Investment</em>)',
+      significado:
+        'Métrica financiera que evalúa el rendimiento de una inversión, comparando el beneficio obtenido con el costo.',
+    },
+    {
+      termino: 'Segmentación',
+      significado:
+        'Proceso de dividir datos en subconjuntos homogéneos para facilitar el análisis personalizado y la toma de decisiones.',
+    },
+    {
+      termino: '<em>Tooltip</em>',
+      significado:
+        'Mensaje emergente que aparece al pasar el cursor sobre una visualización, ofreciendo información contextual adicional.',
+    },
+    {
+      termino: 'Visualización de datos',
+      significado:
+        'Representación gráfica de información que permite comprender patrones, tendencias y relaciones entre variables.',
+    },
+    {
+      termino: 'Zona de confianza',
+      significado:
+        'Rango que muestra la posible variación de un dato proyectado, utilizado para comunicar incertidumbre o escenarios.',
     },
   ],
 }
